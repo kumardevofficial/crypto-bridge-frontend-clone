@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0F0F0F;
+}
+.wrapper{
+    padding: 0px;
+    margin: 0px;
+    background-color: #0F0F0F;
+}
+.container{
+    margin: auto;
+    margin-top: 30px;
+    width: 493px;
+    height: 600px;
+    border: 1px solid #848787;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    color: #848787;
+}
+.heading{
+    width: 300px;
+    height: 40px;    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 10px;
+    
+    
+    
+}
+.heading h4{
+    font-size: 20px;
+    height: 25px;
+    border-bottom: 3px solid #848787;  
+    color: #848787;
+}
+.heading h4:hover{
+    font-size: 20px;
+    height: 25px;
+    border-bottom: 3px solid white;  
+    color: white;
+}
+.swap{
+    width: 400px;
+    height: 100px;
+    border: 1px solid #848787;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    border-radius: 10px;
+}
+.swap h4{
+    font-size: 20px;
+    color: white;
+}
+.amount{
+    width: 400px;
+    height: 100px;    
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.amount label{
+    font-size: 20px;
+    color: white;
+}
+.amount input{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #848787;
+    background-color: #242424;
+   
+}
+.fee{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 5px;
+}
+.fee h4{
+    font-size: 16px;
+    color: white;
+
+}
+.three-button{
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+    
+}
+.three-button button{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid #848787;
+    color: white;
+    
+}
+.memo{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.approve{
+    width: 400px;
+    height: 50px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
